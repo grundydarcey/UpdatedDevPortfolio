@@ -1,0 +1,24 @@
+.navbar {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  text-align: center;
+  padding: 30px;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.navlinks {
+  display: flex;
+
+}
+
+.lefthalf {
+  display: flex;
+  flex-basis: 2;
+}
+
+.righthalf {
+  display: flex;
+
+}
