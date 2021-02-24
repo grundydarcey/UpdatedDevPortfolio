@@ -1,0 +1,16 @@
+.links {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.github {
+  height: 50px;
+  width: 50px;
+}
+
+.linkedin {
+  height: 50px;
+  width: 50px;
+}

@@ -13,9 +13,11 @@ export default function Navigation() {
           <p>Darcey Grundy</p>
         </div>
         <div className='righthalf'>
-          <Link to='/home'>Home</Link>
-          <Link to='/contact'>Contact</Link>
-          <Link to='/portfolio'>Projects</Link>
+          <div className='alllinks'>
+          <Link to='/home' className='link'>HOME</Link>&nbsp; &nbsp; &nbsp;
+          <Link to='/contact' className='link'>CONTACT</Link>&nbsp; &nbsp; &nbsp;
+          <Link to='/portfolio'className='link'>PROJECTS</Link>
+        </div>
         </div>
       </div>
     </div>
