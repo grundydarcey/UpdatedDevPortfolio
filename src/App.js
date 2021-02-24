@@ -8,7 +8,7 @@ import Navigation from './Navigation/navigation';
 function App() {
   return (
     <main className='App'>
-      <h1>Darcey Grundy</h1>
+      
       <Navigation />
       <Route exact path='/' component={Home} />
       <Route exact path='/contact' component={Contact} />
