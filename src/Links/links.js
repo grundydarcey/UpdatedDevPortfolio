@@ -1,6 +1,6 @@
 import React from 'react';
 import './link.css';
-import Github from '../Images/github.png';
+import Github from '../Images/github.webp';
 import Linkedin from '../Images/linkedin.webp';
 
 export default function Links() {
