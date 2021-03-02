@@ -1,6 +1,9 @@
-p {
+.home p {
   margin-top: 30px;
   text-align: center;
+  line-height: 29px;
+  margin-left: 135px;
+  margin-right: 135px;
 }
 
 h1 {
