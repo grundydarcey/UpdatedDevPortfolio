@@ -2,3 +2,13 @@
   height: 300px;
   width: 400px;
 }
+
+.text {
+  text-align: center;
+}
+
+.secondpanel p {
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+}
