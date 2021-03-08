@@ -7,8 +7,17 @@
   text-align: center;
 }
 
+.text h1 {
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
 .secondpanel p {
   padding-right: 50px;
   padding-left: 50px;
   padding-bottom: 40px;
+}
+
+.secondpanel {
+  padding-bottom: 125px;
 }

@@ -6,8 +6,8 @@
 }
 
 .textbox {
-  margin-left: 375px;
-  margin-right: 375px;
+  margin-left: 360px;
+  margin-right: 360px;
   padding-bottom: 20px;
 }
 
@@ -21,4 +21,16 @@
 .panels {
   padding-right: 140px;
   padding-left: 140px;
+}
+
+@media all and (min-width: 100px) and (max-width: 800px) {
+  .textbox {
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+  }
+  
+  .home {
+    text-align: center;
+  }
 }

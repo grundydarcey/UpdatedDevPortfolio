@@ -12,6 +12,7 @@
 
 .text {
   text-align: center;
+  align-self: center;
 }
 
 .vscode {
