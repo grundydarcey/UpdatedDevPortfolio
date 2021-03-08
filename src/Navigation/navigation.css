@@ -1,9 +1,9 @@
 .navbar {
-  background-color: lightgoldenrodyellow;
+  background-color: #fcd560;
   text-align: center;
   padding: 30px;  
   padding-top: 0;
-  height: 150px;
+  height: 215px;
 }
 
 .navlinks {
@@ -13,13 +13,18 @@
 }
 
 .lefthalf {
-  font-size: 30px;
+  font-size: 20px;
+}
+
+.lefthalf p {
+  font-weight: bold;
 }
 
 .righthalf {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin: 10px;
 }
 
 .alllinks {
@@ -33,9 +38,20 @@ a {
   justify-content: space-evenly;
   text-decoration: none;
   color: #000;
-  font-size: 30px;
+  font-size: 15px;
+  font-weight: bold;
   padding-right: 20px;
   padding-left: 20px;
+}
+
+#contact {
+  border-style: solid;
+  border-color: #fff; 
+}
+
+.centeredtext {
+  padding-top: 20px;
+  font-size: 30px;
 }
 
 

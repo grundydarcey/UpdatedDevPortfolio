@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <div className='linksandfooter'>
       <div className='footer'>
-     
         <div className='credit'>
           <br />
           <p>© 2020 Darcey Grundy</p>
