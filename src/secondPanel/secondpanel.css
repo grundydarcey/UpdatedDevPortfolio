@@ -25,7 +25,11 @@
 @media all and (min-width: 100px) and (max-width: 800px) {
   .secondpanel {
     width: 400px;
+  }
 
+  .textbook {
+    width: 300px;
+    height: 280px;
   }
 
   .text {
