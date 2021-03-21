@@ -28,3 +28,10 @@ p.projectdetail {
 .linksholder {
   padding-top: 100px;
 }
+
+@media all and (min-width: 100px) and (max-width: 800px) {
+  .projects p {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
