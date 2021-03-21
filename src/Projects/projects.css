@@ -1,0 +1,26 @@
+.projects h1 {
+  padding-top: 70px;
+  font-size: 35px;
+}
+
+.projects p {
+  margin-left: 360px;
+  margin-right: 360px;
+  line-height: 29px;
+  padding-top: 30px;
+}
+
+#projectimg {
+  width: 600px;
+  height: 363px;
+  margin: 10px;
+}
+
+p.projectdetail {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.projects h2 {
+  text-decoration: underline;
+}

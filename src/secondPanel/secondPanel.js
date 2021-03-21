@@ -8,7 +8,7 @@ export default function secondPanel() {
   return (
    
     <div className='secondpanel'>
-         <div  className='fade-in-section'>
+         
       <div className='container'>
         <div className='text'>
           <h1>SKILLS</h1><br />
@@ -18,7 +18,7 @@ export default function secondPanel() {
           <img src={Textbook} className='textbook' alt='textbook' />
         </div>
       </div>
-    </div>
+  
     </div> 
   )
 }
