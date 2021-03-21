@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import Links from '../Links/links';
 
 export default function Contact() {
   return (
@@ -22,6 +23,9 @@ export default function Contact() {
           <button type='submit' className='submit'>Submit</button>
         </fieldset>
       </form>
+      <section className='linkcontactholder'>
+        <Links />
+      </section>
     </div>
   )
 }

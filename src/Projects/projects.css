@@ -24,3 +24,7 @@ p.projectdetail {
 .projects h2 {
   text-decoration: underline;
 }
+
+.linksholder {
+  padding-top: 100px;
+}

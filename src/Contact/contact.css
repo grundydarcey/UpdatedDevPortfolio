@@ -16,5 +16,9 @@ form {
 }
 
 fieldset {
-  border-style: none;
+  margin: 20px 250px 20px 250px;
+}
+
+.linkcontactholder {
+  padding-top: 100px;
 }
