@@ -5,6 +5,8 @@ import RDPlanetGuide from '../Images/rdplanetguide.png';
 import SSMembers from '../Images/ssmembers.png';
 import SSPick from '../Images/sspick.png';
 import SSPlay from '../Images/ssplay.png';
+import PFHome from '../Images/pfhome.png';
+import PFAdoption from '../Images/pfadoption.png';
 import './projects.css';
 
 export default function Projects() {
@@ -18,12 +20,14 @@ export default function Projects() {
       <img src={RDToday} alt='retrotoday' className='retrotoday' id='projectimg'></img>
       <img src={RDPlanetGuide} alt='retroguide' className='retroguide' id='projectimg'></img><br /><br />
       <a href='https://santaserver-8khqgpbvp.vercel.app/' target='_blank' rel='noreferrer'><h2>Secret Santa's Little Helper</h2></a>
-      <p className='projectdetail'>Secret Santa's Little Helper details....</p>
+      <p className='projectdetail'>Secret Santa's Little Helper details....<a href='https://github.com/grundydarcey/SecretSantasLittleHelperClient' target='_blank' rel='noreferrer'>here.</a></p>
       <img src={SSPlay} alt='ssplay' className='ssplay' id='projectimg'></img>
       <img src={SSMembers} alt='ssmembers' className='ssmembers' id='projectimg'></img>
       <img src={SSPick} alt='sspick' className='sspick' id='projectimg'></img>
-      <a href='https://github.com/grundydarcey/PetfulClient' target='_blank' rel='noreferrer'><h2>Petful</h2></a>
-      <p className='projectdetail'>Petful details...</p>
+      <a href='https://petful-client-template-979vllh0s-grundydarcey.vercel.app/' target='_blank' rel='noreferrer'><h2>Petful</h2></a>
+      <p className='projectdetail'>Petful details...<a href='https://github.com/grundydarcey/PetfulClient' target='_blank' rel='noreferrer'>here.</a></p>
+      <img src={PFHome} alt='pfhome' className='pfhome' id='projectimg'></img>
+      <img src={PFAdoption} alt='pfadoption' className='pfadoption' id='projectimg'></img>
     </div>
   )
 }
