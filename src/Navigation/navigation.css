@@ -62,6 +62,7 @@ a {
 
   .lefthalf {
     font-size: 15px;
+    margin-left: -10px;
   }
 
   .righthalf {
@@ -71,6 +72,6 @@ a {
   #contact {
     border-style: solid;
     border-color: #fff;
-    margin: 10px 5px 10px 5px;
+    margin: 5px 15px 5px 15px;
   }
 }
