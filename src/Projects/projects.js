@@ -3,7 +3,6 @@ import RDHome from '../Images/rdhome.png';
 import RDToday from '../Images/rdtoday.png';
 import RDPlanetGuide from '../Images/rdplanetguide.png';
 import './projects.css';
-import { Link } from 'react-router-dom';
 
 export default function Projects() {
   return (
