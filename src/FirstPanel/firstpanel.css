@@ -37,4 +37,13 @@
   .firstpanel {
     width: 400px;
   }
+
+  .vscode {
+    width: 200px;
+    height: 100px;
+  }
+
+  .text {
+    margin: auto;
+  }
 }
