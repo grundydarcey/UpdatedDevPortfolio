@@ -34,4 +34,9 @@ p.projectdetail {
     margin-left: 25px;
     margin-right: 25px;
   }
+
+  #projectimg {
+    width: 400px;
+    height: 242px;
+  }
 }
