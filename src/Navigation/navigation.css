@@ -57,7 +57,7 @@ a {
 
 @media all and (min-width: 100px) and (max-width: 800px) {
   .navbar {
-    padding-bottom: 75px;
+    padding-bottom: 110px;
   }
 
   .lefthalf {
@@ -68,6 +68,7 @@ a {
   .righthalf {
     font-size: 12px;
     margin: 2px;
+    justify-content: flex-end;
   }
 
   #contact {
