@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Home from '../Home/home';
-import Contact from '../Contact/contact';
-import Portfolio from '../Projects/projects';
+//import Home from '../Home/home';
+//import Contact from '../Contact/contact';
+//import Portfolio from '../Projects/projects';
 import './navigation.css';
 
 export default function Navigation() {
@@ -21,7 +21,7 @@ export default function Navigation() {
         </div>
       </div>
       <div className='centeredtext'>
-        <p>Darcey Grundy is a Full-Stack Developer based in Tampa, Florida</p>
+        <p>DARCEY GRUNDY IS A FULL-STACK DEVELOPER BASED IN TAMPA, FLORIDA</p>
       </div>
     </div>
   )
