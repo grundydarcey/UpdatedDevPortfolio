@@ -1,0 +1,20 @@
+.contact h1 {
+  padding-top: 70px;
+  font-size: 35px;
+}
+
+.contactp {
+  padding-top: 30px;
+}
+
+.emailp {
+  font-weight: bold;
+}
+
+form {
+  padding-top: 30px;
+}
+
+fieldset {
+  border-style: none;
+}
