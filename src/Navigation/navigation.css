@@ -73,15 +73,12 @@ a {
     margin-left: -10px;
   }
 
-  .alllinks {
-    justify-content: flex-end;
-  }
 
   .righthalf {
     
     font-size: 12px;
     margin: 2px;
-    justify-content: flex-end;
+    display: block;
   }
 
   #contact {
