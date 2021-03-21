@@ -4,13 +4,13 @@ import './footer.css';
 
 export default function Footer() {
   return (
-    <div className='linksandfooter'>
-      <div className='footer'>
-        <div className='credit'>
+    <section className='linksandfooter'>
+      <section className='footer'>
+        <section className='credit'>
           <br />
           <p>© 2020 Darcey Grundy</p>
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </section>
   )
 }

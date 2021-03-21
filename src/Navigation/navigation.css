@@ -56,11 +56,5 @@ a {
 
 
 @media all and (min-width: 100px) and (max-width: 800px) {
-  .navbar {
-    width: 700px;
-  }
 
-  .lefthalf {
-    font-size: 30px;
-  }
 }

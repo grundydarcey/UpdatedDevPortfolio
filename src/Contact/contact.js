@@ -4,7 +4,7 @@ import Links from '../Links/links';
 
 export default function Contact() {
   return (
-    <div className='contact'>
+    <section className='contact'>
       <h1>Contact Me</h1>
       <p className='contactp'>Thank you for taking the time to look over my portfolio of current work. If you're interested in contacting me, you can send me an email at</p><p className='emailp'>grundy.darcey@gmail.com</p><p> or feel free to send in a submission below! I will get back to you ASAP.</p>
       <form action="https://formspree.io/f/xpzkaqqy" method="post">
@@ -26,6 +26,6 @@ export default function Contact() {
       <section className='linkcontactholder'>
         <Links />
       </section>
-    </div>
+    </section>
   )
 }

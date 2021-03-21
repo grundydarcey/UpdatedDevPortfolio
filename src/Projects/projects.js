@@ -10,7 +10,7 @@ import './projects.css';
 
 export default function Projects() {
   return (
-    <div className='projects'>
+    <section className='projects'>
       <h1>Past Projects</h1>
       <p>Throughout my time at Thinkful, I was able to work on multiple projects I'm very fond of. Some created solutions for me and my family, some for others on my behalf, and some still were ascribed to me by assignment. Each of them helped to teach me new things and techniques, and solidify my mastery of the older ones.</p><br /><br /><hr />
       <a href='https://retroclient-4qvq37xnl-grundydarcey.vercel.app/' target='_blank' rel='noreferrer'><h2>RetroDate</h2></a>
@@ -28,6 +28,6 @@ export default function Projects() {
       <section className='linksholder'>
         <Links />
       </section>
-    </div>
+    </section>
   )
 }
