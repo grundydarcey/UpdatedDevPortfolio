@@ -74,6 +74,7 @@ a {
   }
 
   .righthalf {
+    width: 80%;
     font-size: 12px;
     margin: 2px;
     justify-content: flex-end;
