@@ -22,3 +22,10 @@ fieldset {
 .linkcontactholder {
   padding-top: 100px;
 }
+
+@media all and (min-width: 100px) and (max-width: 800px) {
+  .contact p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
