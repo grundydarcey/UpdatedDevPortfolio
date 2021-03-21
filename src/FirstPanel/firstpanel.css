@@ -35,13 +35,8 @@
 
 @media all and (min-width: 100px) and (max-width: 800px) {
   .firstpanel {
-    width: 400px;
+    
     display: block;
-  }
-
-  .vscode {
-    width: 200px;
-    height: 100px;
   }
 
   .container {
