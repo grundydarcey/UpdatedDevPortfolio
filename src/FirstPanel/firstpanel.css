@@ -35,7 +35,6 @@
 
 @media all and (min-width: 100px) and (max-width: 800px) {
   .firstpanel {
-    
     display: block;
   }
 
@@ -45,5 +44,9 @@
 
   .text {
     margin: auto;
+  }
+
+  .image {
+    width: 400px;
   }
 }
