@@ -56,5 +56,21 @@ a {
 
 
 @media all and (min-width: 100px) and (max-width: 800px) {
+  .navbar {
+    padding-bottom: 75px;
+  }
 
+  .lefthalf {
+    font-size: 15px;
+  }
+
+  .righthalf {
+    font-size: 12px;
+  }
+
+  #contact {
+    border-style: solid;
+    border-color: #fff;
+    margin: 10px 5px 10px 5px;
+  }
 }
