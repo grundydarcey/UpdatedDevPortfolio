@@ -61,11 +61,11 @@ a {
   color: #fff;
 }
 
-
 @media all and (min-width: 100px) and (max-width: 800px) {
   .navbar {
     padding-bottom: 110px;
     background-size: 25% 110%;
+    width: 100%;
   }
 
   .lefthalf {
@@ -73,9 +73,7 @@ a {
     margin-left: -10px;
   }
 
-
   .righthalf {
-    
     font-size: 12px;
     margin: 2px;
     display: block;
@@ -84,6 +82,44 @@ a {
   #contact {
     border-style: solid;
     border-color: #fff;
-    margin: 5px 15px 5px 15px;
+  }
+
+  .link {
+    flex-basis: 3;
+    align-self: flex-end;
+  }
+
+  .navbar .centeredtext p {
+    margin-right: 60px;
+    margin-left: 60px;
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 420px) {
+  .navbar {
+    padding-bottom: 140px;
+  }
+
+  .righthalf {
+    display: block;
+    margin: 0;
+  }
+
+  .alllinks {
+    display: block;
+    margin-right: 45px;
+    margin-top: 10px;
+  }
+
+  .link {
+    display: block;
+  }
+}
+
+@media all and (min-width: 420px) and (max-width: 800px) {
+  .righthalf {
+    display: block;
+    justify-content: flex-end;
+    margin-right: 45px;
   }
 }

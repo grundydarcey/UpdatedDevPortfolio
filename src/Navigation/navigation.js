@@ -11,10 +11,10 @@ export default function Navigation() {
         </section>
         <section className='righthalf'>
           <section className='alllinks'>
-          <Link to='/home' className='link'>HOME</Link>
-          <Link to='/portfolio'className='link'>PROJECTS</Link>
-          <Link to='/contact' className='link' id='contact'>CONTACT</Link>
-        </section>
+            <Link to='/home' className='link'>HOME</Link>
+            <Link to='/portfolio'className='link'>PROJECTS</Link>
+            <Link to='/contact' className='link' id='contact'>CONTACT</Link>
+          </section>
         </section>
       </section>
       <section className='centeredtext'>
