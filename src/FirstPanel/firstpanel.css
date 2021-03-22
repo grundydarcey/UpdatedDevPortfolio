@@ -33,7 +33,55 @@
   padding-left: 50px;
 }
 
-@media all and (min-width: 100px) and (max-width: 800px) {
+@media all and (min-width: 100px) and (max-width: 360px) {
+
+  .firstpanel {
+    display: block;
+    text-align: center;
+  }
+
+  .vscode {
+    width: 220px;
+    height: 160px;
+    text-align: center;
+  }
+
+
+  .container {
+    display: block;
+    text-align: center;
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  .text {
+    margin: auto;
+  }
+}
+
+@media all and (min-width: 360px) and (max-width: 420px) {
+  .firstpanel {
+    display: block;
+    text-align: center;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .text {
+    margin: auto;
+  }
+
+  .vscode {
+    width: 310px;
+    height: 250px;
+  }
+}
+
+@media all and (min-width: 420px) and (max-width: 800px) {
   .firstpanel {
     display: block;
   }

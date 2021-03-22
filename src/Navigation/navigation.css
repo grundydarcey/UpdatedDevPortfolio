@@ -73,11 +73,11 @@ a {
     margin-left: -10px;
   }
 
-  .righthalf {
+  /* .righthalf {
     font-size: 12px;
     margin: 2px;
     display: block;
-  }
+  } */
 
   #contact {
     border-style: solid;
@@ -121,5 +121,28 @@ a {
     display: block;
     justify-content: flex-end;
     margin-right: 45px;
+  }
+}
+
+@media all and (min-width: 100px) and (max-width: 360px) {
+  .righthalf {
+    display: block;
+    justify-content: flex-end;
+  }
+
+  .alllinks, .link {
+    display: block;
+    align-self: flex-end;
+    margin-right: 20px;
+  }
+
+  .navbar {
+    padding-bottom: 100px;
+  }
+
+  .centeredtext p {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
   }
 }

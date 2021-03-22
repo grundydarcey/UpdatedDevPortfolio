@@ -5,17 +5,17 @@
   margin: 0 -15px;
 }
 
-.github {
+.gitHub {
   height: 30px;
   width: 30px;
 }
 
-.linkedin {
+.linkedIn {
   height: 30px;
   width: 30px;
 }
 
-.githubLink, .linkedinLink {
+.gitHubLink, .linkedInLink {
   flex-direction: row;
   margin: 0 -15px;
 }
