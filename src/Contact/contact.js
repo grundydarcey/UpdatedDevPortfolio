@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section className='contact'>
       <h1>Contact Me</h1>
-      <p className='contactp'>Thank you for taking the time to look over my portfolio of current work. If you're interested in contacting me, you can send me an email at</p><a href='mailto:grundy.darcey@gmail.com' className='emailp'>grundy.darcey@gmail.com</a><p> or feel free to send in a submission below! I will get back to you ASAP.</p>
+      <p className='contactp'>Thank you for taking the time to look over my portfolio of current work. If you're interested in contacting me, you can contact me at</p><a href='mailto:grundy.darcey@gmail.com' className='emailp'>grundy.darcey@gmail.com</a><p> or feel free to send in a submission below! I will get back to you ASAP.</p>
       <form action="https://formspree.io/f/xpzkaqqy" method="post">
         <fieldset>
           <legend>Contact Me!</legend>
