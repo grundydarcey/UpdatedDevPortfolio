@@ -11,7 +11,7 @@ export default function firstPanel() {
         </section>
         <section className='text'>
           <h1>EDUCATION</h1>
-          <p>I graduated from Thinkful's Immersive Software Engineering Course in April 2021. This was an intensive course with many frequent tests of skill by way of projects as well as frequent staff-led interviews to check for concept mastery.</p>
+          <p>I graduated from Thinkful's Immersive Software Engineering Course in March 2021. This was an intensive course with many frequent tests of skill by way of projects as well as frequent staff-led interviews to check for concept mastery.</p>
         </section>
       </section>
     </section> 
