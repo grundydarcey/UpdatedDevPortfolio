@@ -7,7 +7,7 @@ export default function Footer() {
       <section className='footer'>
         <section className='credit'>
           <br />
-          <p>© 2020 Darcey Grundy</p>
+          <p>© 2021 Darcey Grundy</p>
         </section>
       </section>
     </footer>
