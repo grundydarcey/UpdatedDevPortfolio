@@ -29,13 +29,8 @@
 .righthalf {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10px;
-}
-
-.alllinks {
-  display: flex;
-  justify-content: space-around;
 }
 
 a {
@@ -50,15 +45,33 @@ a {
   padding-left: 20px;
 }
 
-#contact {
-  border-style: solid;
-  border-color: #fff; 
+a:hover {
+  color: #ad2546;
+  font-size: 17px;
 }
 
 .centeredtext {
   padding-top: 20px;
   font-size: 30px;
   color: #fff;
+}
+
+.fontbars {
+  margin-top: 10px;
+}
+
+.menutext {
+  width: 100%;
+  top: 350px;
+  right: 0;
+  background-color: #fff;
+  position: fixed;
+  height: 100vh;
+
+}
+
+.revealedNav {
+  color: #000;
 }
 
 @media all and (min-width: 100px) and (max-width: 800px) {
@@ -78,11 +91,6 @@ a {
     border-color: #fff;
   }
 
-  .link {
-    flex-basis: 3;
-    align-self: flex-end;
-  }
-
   .navbar .centeredtext p {
     margin-right: 60px;
     margin-left: 60px;
@@ -95,39 +103,44 @@ a {
   }
 
   .righthalf {
-    display: block;
+    display: flex;
     margin: 0;
   }
 
   .alllinks {
-    display: block;
+    display: flex;
     margin-right: 45px;
     margin-top: 10px;
   }
 
-  .link {
+  /* .link {
     display: block;
-  }
+  } */
 }
 
 @media all and (min-width: 420px) and (max-width: 800px) {
   .righthalf {
-    display: block;
-    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
     margin-right: 45px;
   }
 }
 
 @media all and (min-width: 100px) and (max-width: 360px) {
   .righthalf {
-    display: block;
+    display: flex;
     justify-content: flex-end;
   }
 
-  .alllinks, .link {
+  /* .link {
     display: block;
     align-self: flex-end;
     margin-right: 20px;
+  } */
+
+  .alllinks {
+    display: flex;
+    justify-content: space-around;
   }
 
   .navbar {
