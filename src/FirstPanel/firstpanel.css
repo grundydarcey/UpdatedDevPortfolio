@@ -18,8 +18,8 @@
 .vscode {
   height: 300px;
   width: 400px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 .text h1 {

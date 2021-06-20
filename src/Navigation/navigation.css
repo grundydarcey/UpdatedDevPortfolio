@@ -5,8 +5,7 @@
   background-position: bottom;
   background-size: 35% 140%;
   text-align: center;
-  padding: 30px;  
-  padding-top: 0;
+  padding-top: 15px;
   height: 215px;
   padding-bottom: 100px;
 }
@@ -20,6 +19,7 @@
 .lefthalf {
   font-size: 20px;
   color: #fff;
+  margin-left: 15px;
 }
 
 .lefthalf p {
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 10px;
+  margin: 5px;
 }
 
 a {
@@ -41,19 +41,12 @@ a {
   color: #fff;
   font-size: 15px;
   font-weight: bold;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 8px;
 }
 
 a:hover {
   color: #ad2546;
   font-size: 17px;
-}
-
-.centeredtext {
-  padding-top: 20px;
-  font-size: 30px;
-  color: #fff;
 }
 
 .fontbars {
@@ -68,10 +61,6 @@ a:hover {
   position: fixed;
   height: 100vh;
 
-}
-
-.revealedNav {
-  color: #000;
 }
 
 @media all and (min-width: 100px) and (max-width: 800px) {
@@ -89,11 +78,7 @@ a:hover {
   #contact {
     border-style: solid;
     border-color: #fff;
-  }
-
-  .navbar .centeredtext p {
-    margin-right: 60px;
-    margin-left: 60px;
+    padding: 5px;
   }
 }
 
@@ -102,20 +87,19 @@ a:hover {
     padding-bottom: 140px;
   }
 
+  a {
+    font-size: 12px;
+  }
+
+  .lefthalf {
+    font-size: 13px;
+    margin-left: 15px;
+  }
+
   .righthalf {
     display: flex;
     margin: 0;
   }
-
-  .alllinks {
-    display: flex;
-    margin-right: 45px;
-    margin-top: 10px;
-  }
-
-  /* .link {
-    display: block;
-  } */
 }
 
 @media all and (min-width: 420px) and (max-width: 800px) {
@@ -129,27 +113,15 @@ a:hover {
 @media all and (min-width: 100px) and (max-width: 360px) {
   .righthalf {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
-
-  /* .link {
-    display: block;
-    align-self: flex-end;
-    margin-right: 20px;
-  } */
 
   .alllinks {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 
   .navbar {
     padding-bottom: 100px;
-  }
-
-  .centeredtext p {
-    font-size: 20px;
-    margin: 0;
-    text-align: center;
   }
 }
