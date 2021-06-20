@@ -23,7 +23,7 @@
 }
 
 .text h1 {
-  color: lightgrey;
+  color: rgb(165, 165, 165);
   font-size: 20px;
   letter-spacing: 4px;
 }
@@ -97,5 +97,12 @@
   .vscode {
     width: 350px;
     height: 280px;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 419px) {
+  .firstpanel p {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

@@ -17,8 +17,8 @@
 }
 
 #projectimg {
-  width: 600px;
-  height: 363px;
+  width: 775px;
+  height: 403px;
   margin: 10px;
 }
 
@@ -37,12 +37,19 @@ p.projectdetail {
 
 @media all and (min-width: 100px) and (max-width: 800px) {
   .projects p {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   #projectimg {
-    width: 400px;
-    height: 242px;
+    width: 330px;
+    height: 202px;
+  }
+}
+
+@media all and (min-width: 0px) and (max-width: 320px) {
+  #projectimg {
+    width: 265px;
+    height: 160px;
   }
 }

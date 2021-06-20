@@ -7,7 +7,7 @@ import SSPlay from '../Images/ssplay.png';
 import PFHome from '../Images/pfhome.png';
 import PFAdoption from '../Images/pfadoption.png';
 import dbwn1 from '../Images/dbwn1.png';
-import dbwn2 from '../Images/dbwn2.png';
+import dbwn3 from '../Images/dbwn3.png';
 import './projects.css';
 
 export default function Projects() {
@@ -19,7 +19,7 @@ export default function Projects() {
       <p className='projectdetail'>Daytona Beach, What Now is a helpful tool created in tandem with a local ride-share driver to help build confidence with his clientele in regards to local hot-spots and experiences in the Daytona Beach area. Users can view local dining by cuisine and even check out the specific nightlife based on certain districts for an easy to plan trip. The repository for this project can be found <a href='https://github.com/grundydarcey/DBWNClient' rel='noreferrer' target='_blank'>here.</a></p>
       <p>This project employs React.js, CSS3, Node.js, Express servers, PostgreSQL, JSX, and HTML5.</p>
       <img src={dbwn1} alt='dbwnreviews' id='projectimg'></img>
-      <img src={dbwn2} alt='dbwnfood' id='projectimg'></img>
+      <img src={dbwn3} alt='dbwnfood' id='projectimg'></img>
       <a href='https://retroclient-4qvq37xnl-grundydarcey.vercel.app/' target='_blank' rel='noreferrer'><h2>RetroDate</h2></a>
       <p className='projectdetail'>RetroDate is a tool for people interested in astrology and reading about what planets are in retrograde. Many people take stock in the positions and perceived direction of planets in our solar system. This project helps them plan their events around retrograde dates. Users can check if a planet is in retrograde on any given date in the future. They can also access a current daily report. I built this project for my third full-stack capstone. The repository for this project can be found<a href='https://github.com/grundydarcey/RetroClient' target='_blank' rel='noreferrer'>here.</a></p>
       <p>This project employs React.js, CSS3, Node.js, Express servers, PostgreSQL, JSX, and Jest.</p> 

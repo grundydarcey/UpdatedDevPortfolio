@@ -71,8 +71,12 @@ a:hover {
   }
 
   .lefthalf {
-    font-size: 15px;
-    margin-left: -10px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .link {
+    font-size: 12px;
   }
 
   #contact {
@@ -106,7 +110,7 @@ a:hover {
   .righthalf {
     display: flex;
     justify-content: space-between;
-    margin-right: 45px;
+    margin-right: 10px;
   }
 }
 
@@ -114,6 +118,7 @@ a:hover {
   .righthalf {
     display: flex;
     justify-content: flex-start;
+    /* font-size: 11px; */
   }
 
   .alllinks {

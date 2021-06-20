@@ -58,3 +58,10 @@
     margin: auto;
   }
 }
+
+@media all and (min-width: 0px) and (max-width: 419px) {
+  .secondpanel p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

@@ -44,4 +44,9 @@
     margin-right: -60px;
     text-align: center;
   }
+
+  .textbox {
+    margin-left: 120px;
+    margin-right: 120px;
+  }
 }
