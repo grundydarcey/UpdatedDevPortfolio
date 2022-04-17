@@ -1,3 +1,8 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
 .textbook {
   height: 300px;
   width: 400px;
@@ -29,7 +34,7 @@
   }
 }
 
-@media all and (min-width: 360px) and (max-width: 420px) {
+@media all and (min-width: 361px) and (max-width: 420px) {
   .secondpanel {
     text-align: center;
   }
@@ -44,7 +49,7 @@
   }
 }
 
-@media all and (min-width: 420px) and (max-width: 800px) {
+@media all and (min-width: 421px) and (max-width: 800px) {
   .secondpanel {
     text-align: center;
   }
@@ -59,9 +64,9 @@
   }
 }
 
-@media all and (min-width: 0px) and (max-width: 419px) {
+/* @media all and (min-width: 0px) and (max-width: 419px) {
   .secondpanel p {
     padding-left: 15px;
     padding-right: 15px;
   }
-}
+} */
